@@ -164,6 +164,62 @@ const randomQuestions = [
       correctAnswer: "Rusia"
     },
     {
+       text: "¿Cuántos jugadores componen un equipo de fútbol en el campo durante un partido?",
+        answers: ["9", "10", "11", "12"],
+      correctAnswer: "11"
+      },
+      {
+        text: "¿En qué país se originó el fútbol moderno?",
+        answers: ["Brasil", "Inglaterra", "Italia", "Argentina"],
+        correctAnswer: "Inglaterra"
+      },
+      {
+        text: "¿En qué año se celebró el primer Mundial de Fútbol?",
+        answers: ["1926", "1930", "1934", "1938"],
+        correctAnswer: "1930"
+      },
+      {
+        text: "¿Cuál es el equipo de fútbol más antiguo del mundo?",
+        answers: ["Barcelona", "Manchester United", "Sheffield FC", "Real Madrid"],
+        correctAnswer: "Sheffield FC"
+      },
+      {
+        text: "¿Qué jugador ha ganado más Balones de Oro de la FIFA?",
+        answers: ["Cristiano Ronaldo", "Lionel Messi", "Pelé", "Diego Maradona"],
+        correctAnswer: "Lionel Messi"
+      },
+      {
+        text: "¿En qué estadio se celebró la final de la Copa Mundial de 2002?",
+        answers: ["Maracaná", "Estadio Olímpico de Berlín", "Yokohama", "Wembley"],
+        correctAnswer: "Yokohama"
+      },
+      {
+        text: "¿Qué país ha ganado más Copas América en la historia?",
+        answers: ["Argentina", "Uruguay", "Brasil", "Chile"],
+        correctAnswer: "Uruguay"
+      },
+      {
+        text: "¿Qué jugador es conocido como 'El Fenómeno'?",
+        answers: ["Ronaldo Nazário", "Cristiano Ronaldo", "Romário", "Ronaldinho"],
+        correctAnswer: "Ronaldo Nazário"
+      },
+      {
+        text: "¿Cuántos Mundiales de Fútbol ha ganado Alemania?",
+        answers: ["3", "4", "5", "6"],
+        correctAnswer: "4"
+      },
+      {
+        text: "¿Cuál es el club de fútbol más exitoso en la historia de la Serie A italiana?",
+        answers: ["Milán", "Juventus", "Inter de Milán", "Roma"],
+        correctAnswer: "Juventus"
+      },
+      {
+        text: "¿En qué país se celebró la Copa Mundial de la FIFA 2014?",
+        answers: ["Francia", "Brasil", "Sudáfrica", "Rusia"],
+        correctAnswer: "Brasil"
+      },
+      
+    {
       text: "¿Qué equipo ganó la UEFA Champions League en la temporada 2020-2021?",
       answers: ["Real Madrid", "Chelsea", "Bayern Munich", "Manchester City"],
       correctAnswer: "Chelsea"
