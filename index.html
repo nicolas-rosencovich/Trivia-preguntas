@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Juego de Preguntas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> 
+                <a href="./pages/registrarse.html"></a>
+            </li>
+        </ul>
+    </nav>
+  <div class="container">
+    <div class="options">
+      <button id="randomButton" onclick="startGame('random')">Preguntas Aleatorias</button>
+      <button id="rockButton" onclick="startGame('rock')">Rock Argentino</button>
+  
+      <button id="footballButton" onclick="startFootballGame()">Preguntas de Fútbol</button>
+    </div>
+    <div id="gameContainer" class="game" style="display: none;">
+      <div class="question">
+        <h2>Pregunta:</h2>
+        <p id="questionText"></p>
+      </div>
+      <div class="answers">
+        <button class="answer" onclick="checkAnswer(this.textContent)"></button>
+        <button class="answer" onclick="checkAnswer(this.textContent)"></button>
+        <button class="answer" onclick="checkAnswer(this.textContent)"></button>
+        <button class="answer" onclick="checkAnswer(this.textContent)"></button>
+      </div>
+      <div class="score">
+        <h2>Puntuación:</h2>
+        <p id="score">0</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/tipos.js" defer></script>
+</body>
+</html>
