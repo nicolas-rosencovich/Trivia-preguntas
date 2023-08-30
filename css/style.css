@@ -1,11 +1,11 @@
 /* Estilo para las respuestas correctas */
 .correct-answer {
-    background-color: #4caf50;
+    background-color: #3cd841;
   }
   
   /* Estilo para las respuestas incorrectas */
   .incorrect-answer {
-    background-color: #f44336;
+    background-color: #a10b00;
   }
  body {
     font-family: Arial, sans-serif;
@@ -15,13 +15,13 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000000;
+    background-color: #000d32;
   }
   
   .game {
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffdb;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.768);
     padding: 20px;
     width: 350px;
     text-align: center;
@@ -44,8 +44,8 @@
   .answer {
     padding: 12px;
     border: none;
-    background-color: #e74c3c; 
-    color: #ffffff;
+    background-color: #c5483a; 
+    color: #c4c3fb;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
@@ -123,4 +123,32 @@
   
   .register button:hover {
     background-color: #0056b3;
+  }
+
+  #footballButton{
+background-color: #c5483a;
+width: 150px; 
+margin: solid white;
+border-radius: 10px;
+justify-content: space-between;
+height: 50px;
+font-size: 1rem;
+  }
+  #rockButton{
+    background-color: #c5483a;
+width: 150px;
+margin: solid white;
+border-radius: 10px;
+justify-content: space-between;
+height: 50px;
+font-size: 1rem;
+  }
+  #randomButton{
+    background-color: #c5483a;
+    width:  150px; 
+    margin: solid white;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 1rem;
   }
